@@ -33,7 +33,7 @@ import Habarochir from './elements/admin/Habarochir.js'
 // chanels.jsondan ma'lumot olish
 
 
-const bot_token = "8471724009:AAE-9Ke0ViWHx7RlnmT_994479eaqAlJrHY"
+const bot_token = process.env.BOT_TOKEN
 
 const bot = new Telegraf(bot_token)
 
